@@ -286,7 +286,7 @@ header nav {
     color: white;
     max-width: 900px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 8rem 2rem 2rem 2rem;
     padding-top: 8rem;
 }
 
@@ -297,16 +297,16 @@ header nav {
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 50px;
-    padding: 0.6rem 1.5rem;
+    padding: 0.5rem 1rem;
     margin-bottom: 1rem;
     margin-top: -2rem;
     overflow: hidden;
-    max-width: 320px; 
+    max-width: 280px; 
     box-sizing: border-box;
 }
 
 .badge-text {
-    font-size: 0.89rem;
+    font-size: 0.8rem;
     font-weight: 600;
     position: relative;
     z-index: 2;
@@ -554,26 +554,27 @@ header nav {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .hero-content {
-        padding: 1rem;
+        padding: 10rem 1rem 1rem 1rem;
     }
     
     .hero-title {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
     
     .title-accent {
-        font-size: 2.8rem;
+        font-size: 3rem;
     }
     
     .title-sub {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     
     .hero-highlights {
         flex-direction: column;
         gap: 1rem;
+        margin-bottom: 2rem;
     }
     
     .highlight-item {
